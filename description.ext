@@ -1,0 +1,44 @@
+#include "font\celo_font.hpp"
+
+onLoadIntroTime = false;
+onLoadMissionTime = false;
+OnLoadMission = $STR_CELO_LOAD_TEXT;
+OnLoadMissionIntro = $STR_CELO_LOAD_TEXT;
+
+author= $STR_CELO_title1;
+OnLoadName = $STR_CELO_MissionName;
+
+showCompass=1;
+showGPS=0;
+showMap=0;
+showNotepad=1;
+showWatch=1;
+briefing = 1;
+debriefing=0;
+
+loadScreen = "images\wulfenstein_season_one.paa";
+
+doneKeys[] = {"klic_celo_wulfenstein_season_one"};
+
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = $STR_CELO_DEBR_title;
+		subtitle = "";
+		description = $STR_CELO_DEBR_description;
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class End2
+	{
+		title = $STR_CELO_DEBR_title_bad;
+		subtitle = "";
+		description = $STR_CELO_DEBR_description_bad;
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+};

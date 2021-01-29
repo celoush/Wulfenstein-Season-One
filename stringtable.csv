@@ -1,0 +1,18 @@
+﻿LANGUAGE,"English","Czech"
+STR_CELO_LOAD_TEXT,"I Think I'm Quite Ready For Another Adventure","I Think I'm Quite Ready For Another Adventure"
+STR_CELO_First_Level,"Find DEVICE and shut it down.","Najdi STROJ a vypni ho."
+STR_CELO_First_Level_End,"Thank you %1! But our DEVICE is in another level!","Díky %1! Ale náš STROJ je v dalším levelu."
+STR_CELO_MissionName,"Wulfenstein - Season One","Wulfenstein - Season One"
+STR_CELO_title1,"Celoush","Celoush",
+STR_CELO_title2,"present","uvádí",
+STR_CELO_title3,"Wulfenstein - Season One","Wulfenstein - Season One"
+STR_CELO_title4,"The End","Konec",
+STR_CELO_DEBR_title,"Mission Completed","Mise splněna"
+STR_CELO_DEBR_description,"This is the end.","This is the end"
+STR_CELO_DEBR_title_bad,"TIME'S UP","ČAS VYPRŠEL"
+STR_CELO_DEBR_description_bad,"DEVICE is running on full power. We lose.","STROJ jede na plný výkon. Prohráli jsme."
+STR_CELO_DiaryName,"Wulfenstein - Season One","Wulfenstein - Season One"
+STR_CELO_DiaryDescription,"",""
+STR_CELO_ending_mission,"Turn off DEVICE","Vypnout STROJ"
+STR_CELO_no_medkit_warning,"You need first aid kit for saving game","Pro uložení hry je potřeba mít soupravu první pomoci."
+STR_CELO_time_warning,"Hurry up before they will use DEVICE on full power!","Pospěš si než spustí STROJ na plný výkon!"

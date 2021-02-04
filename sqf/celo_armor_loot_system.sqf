@@ -40,10 +40,10 @@ celo_fnc_armor_loot_system = {
 
 		if (!_used_armor) then {
 			scopeName "primaryWeaponScope";
-			_items = primaryWeaponItems player;
+			_items = primaryWeaponItems _unit;
 			for [{private _i = 0}, {_i < 4}, {_i = _i + 1}] do {
 				if (_items#_i!="") then {
-					player removePrimaryWeaponItem (_items#_i);
+					_unit removePrimaryWeaponItem (_items#_i);
 					_used_armor = true;
 					breakOut "primaryWeaponScope";
 				}
@@ -51,9 +51,9 @@ celo_fnc_armor_loot_system = {
 		};
 
 		if (!_used_armor) then {
-			_goggles = goggles player;
+			_goggles = goggles _unit;
 			if (_goggles!="") then {
-				removeGoggles player;
+				removeGoggles _unit;
 				_used_armor = true;
 			};
 		};		
@@ -75,10 +75,10 @@ celo_fnc_armor_loot_system = {
 
 		if (!_used_armor) then {
 			scopeName "handgunWeaponScope";
-			_items = handgunItems player;
+			_items = handgunItems _unit;
 			for [{private _i = 0}, {_i < 4}, {_i = _i + 1}] do {
 				if (_items#_i!="") then {
-					player removeHandgunItem (_items#_i);
+					_unit removeHandgunItem (_items#_i);
 					_used_armor = true;
 					breakOut "handgunWeaponScope";
 				}
